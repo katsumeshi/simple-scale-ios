@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8110901621867DD200DBFAFF /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819B38E821853B3900DAED76 /* RxSwift.framework */; };
+		8110901721867DD200DBFAFF /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819B38ED218660B500DAED76 /* RxCocoa.framework */; };
 		819B38AF2185295100DAED76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B38AE2185295100DAED76 /* AppDelegate.swift */; };
-		819B38B12185295100DAED76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B38B02185295100DAED76 /* ViewController.swift */; };
+		819B38B12185295100DAED76 /* WeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B38B02185295100DAED76 /* WeightViewController.swift */; };
 		819B38B42185295100DAED76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819B38B22185295100DAED76 /* Main.storyboard */; };
 		819B38B62185295300DAED76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819B38B52185295300DAED76 /* Assets.xcassets */; };
 		819B38B92185295300DAED76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819B38B72185295300DAED76 /* LaunchScreen.storyboard */; };
 		819B38C42185295300DAED76 /* SimpleScaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B38C32185295300DAED76 /* SimpleScaleTests.swift */; };
 		819B38CF2185295300DAED76 /* SimpleScaleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B38CE2185295300DAED76 /* SimpleScaleUITests.swift */; };
+		819B38DD2185321800DAED76 /* WeightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B38DC2185321800DAED76 /* WeightViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		81067323218672D4009B34E3 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		81067324218672D4009B34E3 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		819B38AB2185295100DAED76 /* SimpleScale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleScale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		819B38AE2185295100DAED76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		819B38B02185295100DAED76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		819B38B02185295100DAED76 /* WeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightViewController.swift; sourceTree = "<group>"; };
 		819B38B32185295100DAED76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		819B38B52185295300DAED76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		819B38B82185295300DAED76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,10 @@
 		819B38CA2185295300DAED76 /* SimpleScaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleScaleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		819B38CE2185295300DAED76 /* SimpleScaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleScaleUITests.swift; sourceTree = "<group>"; };
 		819B38D02185295300DAED76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819B38DC2185321800DAED76 /* WeightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightViewModel.swift; sourceTree = "<group>"; };
+		819B38E821853B3900DAED76 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		819B38EB218660A500DAED76 /* RxCocoa.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RxCocoa.framework.dSYM; path = Carthage/Build/iOS/RxCocoa.framework.dSYM; sourceTree = "<group>"; };
+		819B38ED218660B500DAED76 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8110901621867DD200DBFAFF /* RxSwift.framework in Frameworks */,
+				8110901721867DD200DBFAFF /* RxCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +92,7 @@
 				819B38C22185295300DAED76 /* SimpleScaleTests */,
 				819B38CD2185295300DAED76 /* SimpleScaleUITests */,
 				819B38AC2185295100DAED76 /* Products */,
+				819B38E721853B3800DAED76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				819B38AE2185295100DAED76 /* AppDelegate.swift */,
-				819B38B02185295100DAED76 /* ViewController.swift */,
+				819B38B02185295100DAED76 /* WeightViewController.swift */,
+				819B38DC2185321800DAED76 /* WeightViewModel.swift */,
 				819B38B22185295100DAED76 /* Main.storyboard */,
 				819B38B52185295300DAED76 /* Assets.xcassets */,
 				819B38B72185295300DAED76 /* LaunchScreen.storyboard */,
@@ -125,6 +138,18 @@
 			path = SimpleScaleUITests;
 			sourceTree = "<group>";
 		};
+		819B38E721853B3800DAED76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81067324218672D4009B34E3 /* RxBlocking.framework */,
+				81067323218672D4009B34E3 /* RxTest.framework */,
+				819B38ED218660B500DAED76 /* RxCocoa.framework */,
+				819B38EB218660A500DAED76 /* RxCocoa.framework.dSYM */,
+				819B38E821853B3900DAED76 /* RxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +160,7 @@
 				819B38A72185295100DAED76 /* Sources */,
 				819B38A82185295100DAED76 /* Frameworks */,
 				819B38A92185295100DAED76 /* Resources */,
+				819B38EA21853B6900DAED76 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -251,13 +277,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		819B38EA21853B6900DAED76 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/newOutputFile",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		819B38A72185295100DAED76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				819B38B12185295100DAED76 /* ViewController.swift in Sources */,
+				819B38B12185295100DAED76 /* WeightViewController.swift in Sources */,
 				819B38AF2185295100DAED76 /* AppDelegate.swift in Sources */,
+				819B38DD2185321800DAED76 /* WeightViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +485,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y39CHLQ6L9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SimpleScale/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +507,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y39CHLQ6L9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SimpleScale/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
