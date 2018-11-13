@@ -1,4 +1,12 @@
 PODS:
+  - AppCenter (1.10.1):
+    - AppCenter/Analytics (= 1.10.1)
+    - AppCenter/Crashes (= 1.10.1)
+  - AppCenter/Analytics (1.10.1):
+    - AppCenter/Core
+  - AppCenter/Core (1.10.1)
+  - AppCenter/Crashes (1.10.1):
+    - AppCenter/Core
   - BoringSSL (10.0.6):
     - BoringSSL/Implementation (= 10.0.6)
     - BoringSSL/Interface (= 10.0.6)
@@ -143,6 +151,7 @@ PODS:
   - SwiftyJSON (4.2.0)
 
 DEPENDENCIES:
+  - AppCenter
   - CodableFirebase
   - Firebase/Auth
   - Firebase/Core
@@ -156,6 +165,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AppCenter
     - BoringSSL
     - CodableFirebase
     - Firebase
@@ -186,6 +196,7 @@ SPEC REPOS:
     - SwiftyJSON
 
 SPEC CHECKSUMS:
+  AppCenter: 6b3254458592514c5af262473732aeda48d58d58
   BoringSSL: e10f92a27043805c01071fe815a5cd98ae8212e7
   CodableFirebase: 0bf201991eeec35eb9fcd987d271ea463cf34a80
   Firebase: 383fa29aca93e371cab776b48a5c66544d3c2003
@@ -215,6 +226,6 @@ SPEC CHECKSUMS:
   SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: deb7b4f073a6792669aa8ea199be600fc7561732
+PODFILE CHECKSUM: 67c21e9730cd1a9c868dc28c3638e2201dc399c9
 
 COCOAPODS: 1.5.3

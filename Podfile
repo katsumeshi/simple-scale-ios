@@ -18,4 +18,5 @@ pod 'CodableFirebase'
 # Tool
 pod 'SwiftFormat/CLI'
 pod 'SwiftLint'
+pod 'AppCenter'
 end
