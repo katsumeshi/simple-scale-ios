@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8110901621867DD200DBFAFF /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819B38E821853B3900DAED76 /* RxSwift.framework */; };
-		8110901721867DD200DBFAFF /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819B38ED218660B500DAED76 /* RxCocoa.framework */; };
+		8110904521883DF600DBFAFF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8110904421883DF600DBFAFF /* GoogleService-Info.plist */; };
+		8144DB16218D74B30012FF43 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8144DB15218D74B30012FF43 /* User.swift */; };
 		819B38AF2185295100DAED76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B38AE2185295100DAED76 /* AppDelegate.swift */; };
 		819B38B12185295100DAED76 /* WeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B38B02185295100DAED76 /* WeightViewController.swift */; };
 		819B38B42185295100DAED76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819B38B22185295100DAED76 /* Main.storyboard */; };
@@ -17,6 +17,7 @@
 		819B38C42185295300DAED76 /* SimpleScaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B38C32185295300DAED76 /* SimpleScaleTests.swift */; };
 		819B38CF2185295300DAED76 /* SimpleScaleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B38CE2185295300DAED76 /* SimpleScaleUITests.swift */; };
 		819B38DD2185321800DAED76 /* WeightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B38DC2185321800DAED76 /* WeightViewModel.swift */; };
+		CAED68E4B3F7C4163F15A64D /* Pods_SimpleScale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08546A105AAC5F6858C1C2C6 /* Pods_SimpleScale.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		81067323218672D4009B34E3 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
-		81067324218672D4009B34E3 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		08546A105AAC5F6858C1C2C6 /* Pods_SimpleScale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleScale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37732AA2B4E6CFF5AF7CF3D4 /* Pods-SimpleScale.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleScale.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleScale/Pods-SimpleScale.release.xcconfig"; sourceTree = "<group>"; };
+		3B6F1901C3EBE0918B8883F1 /* Pods-SimpleScale.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleScale.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleScale/Pods-SimpleScale.debug.xcconfig"; sourceTree = "<group>"; };
+		4941481DB487EEEEB30E1719 /* Pods_SimpleScaleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleScaleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8110904421883DF600DBFAFF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8144DB15218D74B30012FF43 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		819B38AB2185295100DAED76 /* SimpleScale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleScale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		819B38AE2185295100DAED76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		819B38B02185295100DAED76 /* WeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightViewController.swift; sourceTree = "<group>"; };
@@ -53,9 +58,7 @@
 		819B38CE2185295300DAED76 /* SimpleScaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleScaleUITests.swift; sourceTree = "<group>"; };
 		819B38D02185295300DAED76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		819B38DC2185321800DAED76 /* WeightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightViewModel.swift; sourceTree = "<group>"; };
-		819B38E821853B3900DAED76 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
-		819B38EB218660A500DAED76 /* RxCocoa.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RxCocoa.framework.dSYM; path = Carthage/Build/iOS/RxCocoa.framework.dSYM; sourceTree = "<group>"; };
-		819B38ED218660B500DAED76 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		8B22C4FF8FE748608E6301A0 /* Pods_SimpleScaleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleScaleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8110901621867DD200DBFAFF /* RxSwift.framework in Frameworks */,
-				8110901721867DD200DBFAFF /* RxCocoa.framework in Frameworks */,
+				CAED68E4B3F7C4163F15A64D /* Pods_SimpleScale.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +87,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F6C512F53F52220B9EB2972 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08546A105AAC5F6858C1C2C6 /* Pods_SimpleScale.framework */,
+				4941481DB487EEEEB30E1719 /* Pods_SimpleScaleTests.framework */,
+				8B22C4FF8FE748608E6301A0 /* Pods_SimpleScaleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		144B4AFF659E61DE81769B91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B6F1901C3EBE0918B8883F1 /* Pods-SimpleScale.debug.xcconfig */,
+				37732AA2B4E6CFF5AF7CF3D4 /* Pods-SimpleScale.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8144DB12218C2D610012FF43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				819B38B22185295100DAED76 /* Main.storyboard */,
+				819B38B02185295100DAED76 /* WeightViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8144DB13218C2D6C0012FF43 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				819B38DC2185321800DAED76 /* WeightViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8144DB14218C2D730012FF43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8144DB15218D74B30012FF43 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		819B38A22185295100DAED76 = {
 			isa = PBXGroup;
 			children = (
@@ -92,7 +138,8 @@
 				819B38C22185295300DAED76 /* SimpleScaleTests */,
 				819B38CD2185295300DAED76 /* SimpleScaleUITests */,
 				819B38AC2185295100DAED76 /* Products */,
-				819B38E721853B3800DAED76 /* Frameworks */,
+				144B4AFF659E61DE81769B91 /* Pods */,
+				0F6C512F53F52220B9EB2972 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,13 +156,14 @@
 		819B38AD2185295100DAED76 /* SimpleScale */ = {
 			isa = PBXGroup;
 			children = (
+				8144DB12218C2D610012FF43 /* View */,
+				8144DB13218C2D6C0012FF43 /* ViewModel */,
+				8144DB14218C2D730012FF43 /* Model */,
 				819B38AE2185295100DAED76 /* AppDelegate.swift */,
-				819B38B02185295100DAED76 /* WeightViewController.swift */,
-				819B38DC2185321800DAED76 /* WeightViewModel.swift */,
-				819B38B22185295100DAED76 /* Main.storyboard */,
 				819B38B52185295300DAED76 /* Assets.xcassets */,
 				819B38B72185295300DAED76 /* LaunchScreen.storyboard */,
 				819B38BA2185295300DAED76 /* Info.plist */,
+				8110904421883DF600DBFAFF /* GoogleService-Info.plist */,
 			);
 			path = SimpleScale;
 			sourceTree = "<group>";
@@ -138,18 +186,6 @@
 			path = SimpleScaleUITests;
 			sourceTree = "<group>";
 		};
-		819B38E721853B3800DAED76 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				81067324218672D4009B34E3 /* RxBlocking.framework */,
-				81067323218672D4009B34E3 /* RxTest.framework */,
-				819B38ED218660B500DAED76 /* RxCocoa.framework */,
-				819B38EB218660A500DAED76 /* RxCocoa.framework.dSYM */,
-				819B38E821853B3900DAED76 /* RxSwift.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,10 +193,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 819B38D32185295300DAED76 /* Build configuration list for PBXNativeTarget "SimpleScale" */;
 			buildPhases = (
+				5799568D02B19C101F5D423C /* [CP] Check Pods Manifest.lock */,
 				819B38A72185295100DAED76 /* Sources */,
 				819B38A82185295100DAED76 /* Frameworks */,
 				819B38A92185295100DAED76 /* Resources */,
 				819B38EA21853B6900DAED76 /* Run Script */,
+				0A168434376444E9FEB06018 /* [CP] Embed Pods Frameworks */,
+				850A3398DA35683020F11CCF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8110904521883DF600DBFAFF /* GoogleService-Info.plist in Resources */,
 				819B38B92185295300DAED76 /* LaunchScreen.storyboard in Resources */,
 				819B38B62185295300DAED76 /* Assets.xcassets in Resources */,
 				819B38B42185295100DAED76 /* Main.storyboard in Resources */,
@@ -278,6 +318,82 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0A168434376444E9FEB06018 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SimpleScale/Pods-SimpleScale-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableFirebase/CodableFirebase.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableFirebase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleScale/Pods-SimpleScale-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5799568D02B19C101F5D423C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleScale-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		819B38EA21853B6900DAED76 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -286,18 +402,37 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
 			);
 			name = "Run Script";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/newOutputFile",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+			shellScript = "# Linting   \n# \"${PODS_ROOT}/SwiftLint/swiftlint\"\n\n# Formatting\n\"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\"\n";
+		};
+		850A3398DA35683020F11CCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SimpleScale/Pods-SimpleScale-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleScale/Pods-SimpleScale-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -306,6 +441,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8144DB16218D74B30012FF43 /* User.swift in Sources */,
 				819B38B12185295100DAED76 /* WeightViewController.swift in Sources */,
 				819B38AF2185295100DAED76 /* AppDelegate.swift in Sources */,
 				819B38DD2185321800DAED76 /* WeightViewModel.swift in Sources */,
@@ -418,6 +554,10 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -472,6 +612,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -481,6 +625,7 @@
 		};
 		819B38D42185295300DAED76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B6F1901C3EBE0918B8883F1 /* Pods-SimpleScale.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -488,13 +633,14 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = SimpleScale/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yukim.SimpleScale;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukim.simplescale;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -503,6 +649,7 @@
 		};
 		819B38D52185295300DAED76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37732AA2B4E6CFF5AF7CF3D4 /* Pods-SimpleScale.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -510,13 +657,14 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = SimpleScale/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yukim.SimpleScale;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukim.simplescale;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
